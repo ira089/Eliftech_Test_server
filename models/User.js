@@ -29,7 +29,7 @@ const userShema = new Schema(
       default: "social_media",
     },
   },
-  { versionKey: false, timestamps: true }
+  { versionKey: false }
 );
 
 userShema.post("save", hooks.handleSaveError);
