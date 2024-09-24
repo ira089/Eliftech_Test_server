@@ -1,18 +1,4 @@
-// import bcryptjs from "bcryptjs";
-// import jwt from "jsonwebtoken";
-// import "dotenv/config.js"
-import HttpError from "../helpers/HttpError.js";
 import * as authServices from "../services/authServices.js";
-// import fs from "fs/promises";
-// import path from "path";
-// import gravatar from "gravatar";
-// import Jimp from "jimp";
-// import { nanoid } from "nanoid";
-// import sendEmail from "../helpers/sendEmail.js";
-
-// const avatarPath = path.resolve("public", "avatars");
-
-// const {JWT_SECRET, PROJECT_URL} = process.env;
 
 export const createUser = async (req, res, next) => {
   try {

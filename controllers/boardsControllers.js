@@ -1,4 +1,3 @@
-// import HttpError from "../helpers/HttpError.js";
 import * as boardsService from "../services/boardsService.js";
 
 export const getAllBoards = async (req, res, next) => {
